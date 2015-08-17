@@ -1,8 +1,94 @@
-body{
-	margin:0px;
+
+body {
+    color: #fff;
+    font-family: "verdana";
+    font-size: 32pt;
+    margin: 0;
 }
-#wrapper{
-	width:2560px;
-	height:1600px;
-	background-color:#633; 
+div#wrapper {
+    height: 1536px;
+    width: 2048px;
+}
+div#wrapper div#header {
+    margin: 20px 50px;
+}
+div#wrapper div#header > img {
+    float: left;
+}
+div#wrapper div#header > h1 {
+    color: #333;
+    font-size: 32pt;
+    text-align: center;
+}
+div#wrapper > div#container > div.header {
+    background-color: #666;
+    font-size: 16pt;
+    margin: 20px 50px;
+}
+div#wrapper > div#container > div.header > span {
+    text-align: center;
+}
+div#wrapper > div#container > div.header > span.selected {
+    background-color: #777;
+}
+div#wrapper > div#container > div.header > span.filter:hover {
+    background-color: #777;
+}
+div#wrapper > div#container > div.header > span#number {
+    display: inline-block;
+    width: 150px;
+}
+div#wrapper > div#container > div.header > span#status {
+    display: inline-block;
+    width: 300px;
+}
+div#wrapper > div#container > div.header > span#location {
+    display: inline-block;
+    width: 1150px;
+}
+div#wrapper > div#container > div.header > span#eta {
+    display: inline-block;
+    width: 345px;
+}
+div#wrapper > div#container > div.unit {
+    background-color: #666;
+    height: 150px;
+    margin: 20px 50px;
+}
+
+div#container > div.unit > div.number {
+    background-color: #a66;
+    float: left;
+    height: 150px;
+    line-height: 140px;
+    text-align: center;
+    width: 150px;
+}
+div#container > div.unit > div.details {
+    color: #ddd;
+}
+div#container > div.unit > div.details > div {
+    float: left;
+    text-align: center;
+}
+div#container > div.unit > div.details > div.state {
+    line-height: 140px;
+    width: 300px;
+}
+div#container > div.unit > div.details > div.state > select {
+    background-color: #000;
+    border: 0 none;
+    color: #fff;
+    font-size: 32pt;
+    height: 100%;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%;
+}
+div#container > div.unit > div.details > div.origin {
+    width: 1150px;
+}
+div#container > div.unit > div.details > div.eta {
+    line-height: 140px;
+    width: 345px;
 }
